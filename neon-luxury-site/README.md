@@ -1,0 +1,1 @@
+Neon luxury site. Deploy via GitHub Pages. Replace assets and Formspree URL.

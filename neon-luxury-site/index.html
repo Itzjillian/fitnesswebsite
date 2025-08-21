@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>COACH — Neon Performance</title>
+  <meta name="description" content="Luxury training studio: athlete-engineered programming, concierge coaching, and editorial visuals in a neon-dark aesthetic." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="#top">COACH</a>
+      <nav id="nav" class="nav-links">
+        <a href="#programs">Programs</a>
+        <a href="#products">Products</a>
+        <a href="#results">Results</a>
+        <a href="#about">About</a>
+        <a href="client-portal.html">Client Portal</a>
+        <a href="#contact" class="btn btn--sm">Apply</a>
+      </nav>
+      <button id="menuBtn" class="menu" aria-label="Menu" aria-controls="nav" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <video class="hero__video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+        <source src="assets/hero.mp4" type="video/mp4">
+      </video>
+      <div class="overlay-gradient"></div>
+      <div class="container hero__content">
+        <h1 class="display">Precision. Power. Poise.</h1>
+        <p class="kicker">Bespoke coaching with cinematic edge.</p>
+        <div class="cta-row">
+          <a href="#programs" class="btn btn--neon">Explore Programs</a>
+          <a href="#contact" class="btn btn--ghost">Apply for Coaching</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="strip">
+      <div class="strip__track">
+        <img src="assets/strip1.jpg" alt="neon training 1">
+        <img src="assets/strip2.jpg" alt="neon training 2">
+        <img src="assets/strip3.jpg" alt="neon training 3">
+        <img src="assets/strip4.jpg" alt="neon training 4">
+        <img src="assets/strip5.jpg" alt="neon training 5">
+      </div>
+    </section>
+
+    <section id="programs" class="section">
+      <div class="container">
+        <h2 class="headline">Signature Programs</h2>
+        <p class="section-lead">Engineered for measurable progress. Shot like a campaign.</p>
+        <div class="cards">
+          <article class="card glow-pink">
+            <div class="card__media">
+              <video autoplay muted loop playsinline poster="assets/glutes.jpg">
+                <source src="assets/glutes-loop.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card__body">
+              <h3>Glute Atelier</h3>
+              <p>Posterior-chain focused design that builds curvature without overdeveloping obliques.</p>
+              <a class="btn btn--line" href="#contact">Request Access</a>
+            </div>
+          </article>
+          <article class="card glow-cyan">
+            <div class="card__media">
+              <video autoplay muted loop playsinline poster="assets/athlete.jpg">
+                <source src="assets/athlete-loop.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card__body">
+              <h3>Athlete Strength</h3>
+              <p>Explosive power and controlled strength. Collegiate methods, polished cadence.</p>
+              <a class="btn btn--line" href="#contact">Request Access</a>
+            </div>
+          </article>
+          <article class="card glow-violet">
+            <div class="card__media">
+              <video autoplay muted loop playsinline poster="assets/mobility.jpg">
+                <source src="assets/mobility-loop.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="card__body">
+              <h3>Mobility Ritual</h3>
+              <p>Daily 15–20 minute flows that restore hips, T-spine, and posterior resilience.</p>
+              <a class="btn btn--line" href="#contact">Request Access</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section section--alt">
+      <div class="container">
+        <h2 class="headline">Products</h2>
+        <p class="section-lead">Digital programs and select physical gear, shot in neon.</p>
+        <div class="product-grid">
+          <a class="product" href="#"><img src="assets/prod1.jpg"><div class="product__meta"><span>PDF Program</span><strong>Glute Atelier 12‑Week</strong></div></a>
+          <a class="product" href="#"><img src="assets/prod2.jpg"><div class="product__meta"><span>Gear</span><strong>Premium Resistance Bands</strong></div></a>
+          <a class="product" href="#"><img src="assets/prod3.jpg"><div class="product__meta"><span>eBook</span><strong>Mobility Ritual Guide</strong></div></a>
+          <a class="product" href="#"><img src="assets/prod4.jpg"><div class="product__meta"><span>Coaching</span><strong>1:1 Concierge Coaching</strong></div></a>
+        </div>
+      </div>
+    </section>
+
+    <section id="results" class="section">
+      <div class="container">
+        <h2 class="headline">Results</h2>
+        <div class="carousel">
+          <div class="carousel__track">
+            <figure><img src="assets/res1.jpg"><figcaption>“Hip thrust +80 lbs in 10 weeks.”</figcaption></figure>
+            <figure><img src="assets/res2.jpg"><figcaption>“Waist tapered, glutes grew.”</figcaption></figure>
+            <figure><img src="assets/res3.jpg"><figcaption>“Knees track, back happy.”</figcaption></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section section--alt">
+      <div class="container about-grid">
+        <div>
+          <h2 class="headline">About</h2>
+          <p>Division I foundation. MS in Data Analytics. Programs are engineered with the rigor of performance dashboards: define the target, measure inputs, iterate with intent.</p>
+          <p>We bias hip hinges, single‑leg work, and spine‑respectful machines for power and symmetry. Back squats optional, results non‑negotiable.</p>
+          <div class="stats">
+            <div><strong>8+</strong><span>years practice</span></div>
+            <div><strong>D1</strong><span>All‑American</span></div>
+            <div><strong>100+</strong><span>clients guided</span></div>
+          </div>
+        </div>
+        <img class="about-img" src="assets/about.jpg">
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="headline">Request Coaching</h2>
+        <p class="section-lead">Limited capacity. Applications reviewed weekly.</p>
+        <form id="contactForm" action="https://formspree.io/f/your-form-id" method="POST" class="form">
+          <div class="form-row">
+            <label>Name<input type="text" name="name" required></label>
+            <label>Email<input type="email" name="email" required></label>
+          </div>
+          <label>Goals<textarea name="goals" rows="5" placeholder="Glute growth, strength, mobility, schedule, equipment..." required></textarea></label>
+          <button type="submit" class="btn btn--neon">Submit</button>
+          <p class="hint">Replace the action URL with your Formspree ID.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> COACH. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button id="chatBtn" class="chat-fab">Chat</button>
+  <div id="chatBox" class="chatbox" hidden>
+    <div class="chatbox__header">Concierge</div>
+    <div class="chatbox__body">
+      <p><strong>Bot:</strong> Hi! Ask about programs, pricing, or equipment needs.</p>
+    </div>
+    <form class="chatbox__input" onsubmit="return false;">
+      <input id="chatInput" type="text" placeholder="Type your question..." />
+      <button id="chatSend" class="btn btn--sm btn--neon">Send</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
