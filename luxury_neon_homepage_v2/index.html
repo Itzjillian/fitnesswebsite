@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Neon Motion</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="logo">NEON MOTION</div>
+    <nav>
+      <ul>
+        <li><a href="#programs">Programs</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <video autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+      <source src="assets/hero.mp4" type="video/mp4">
+    </video>
+    <div class="hero-text">
+      <h1>Train in Motion</h1>
+      <p>Luxury fitness with neon energy</p>
+    </div>
+  </section>
+
+  <section id="strip" class="image-strip">
+    <img src="assets/strip1.jpg" alt="">
+    <img src="assets/strip2.jpg" alt="">
+    <img src="assets/strip3.jpg" alt="">
+    <img src="assets/strip4.jpg" alt="">
+    <img src="assets/strip5.jpg" alt="">
+  </section>
+
+  <section id="programs" class="programs">
+    <h2>Our Programs</h2>
+    <div class="cards">
+      <div class="card"><img src="assets/prog1.jpg"><h3>Strength</h3></div>
+      <div class="card"><img src="assets/prog2.jpg"><h3>Conditioning</h3></div>
+      <div class="card"><img src="assets/prog3.jpg"><h3>Recovery</h3></div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2>About Us</h2>
+    <div class="about-content">
+      <img src="assets/about.jpg">
+      <p>We fuse style, science, and energy to create fitness that feels as good as it looks.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; <span id="year"></span> Neon Motion</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
